@@ -10,9 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Gravity Forms AddOn which saves form data into a given Excel document and attaches it to notification emails
 
-
-
 == Description ==
+
 This Gravity Forms AddOn saves form data into a given Excel document and attaches it to notification emails. You don't need any programming skills to get native Excel documents back as the result of your Gravity Forms web form. After uploading your Excel 2007 file (.xslx, other versions are not supported) the form data is saved into one sheet (which you can define) of your document. You can then select to which notification emails this Excel file should be attached to. Using simple Excel formulas (=A1) you can fill out complex Excel sheets with data from the web form. No further export or import of CSV data is required.
 
 = Operating instructions =
@@ -36,27 +35,22 @@ This plugin is maintained [by winball.de](http://winball.de) on [wp4office.winba
 = You do have problems or need individual service? =
 Professional web services are our actual business. If you need help with your form or your Excel file, please feel free to [contact us](http://winball.de/wp4office-gf2excel-services).
 
-
-
 == Installation ==
+
 Upload the plugin to your blog (manually via ftp or through the dashboard) and activate it.
 
 *This plugin requires Gravity Forms by RocketGenius to be active.*
 
-
-
 == Frequently Asked Questions ==
+
 We are waiting for input ...
 
-
-
 == Screenshots ==
+
 1. Use the admin field labels to associate the data with the form fields.
 2. Upload your Excel file, type in your sheet number and select the notifications.
 3. The target sheet will contain the admin field labels in column A and the form data in column B.
 4. Using simple formulas (e.g. A1=...) your form will show the data coming from the web form.
-
-
 
 == Changelog ==
 = 0.1.3 = 
