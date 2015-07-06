@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp4office-gf2excel.php conversion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Jun 15 2015 17:55:58 GMT+0200 (CEST)\n"
+"PO-Revision-Date: 2015-06-26 11:18+0100\n"
+"Last-Translator: Dip <dieter.pfenning@gmx.de>\n"
+"Language-Team: \n"
+"Language: Unknown\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#. Plugin Name: WP4Office Gravity Forms To Excel AddOn
+#. Plugin URI: http://winball.de/wp4office-gf2excel
+#. Description: Gravity Forms AddOn which saves form data into a given Excel document and attaches it to notification emails
+#. Version: 0.1.3
+#. Author: winball.de
+#. Author URI: http://winball.de/wp4office-gf2excel
+#. ------------------------------------------------------------------------
+#. Copyright 2012-2015 winball.de (PG Consulting GmbH)
+#. Publishing date: 2015-06-14 22:47:52
+#. This program is free software; you can redistribute it and/or modify
+#. it under the terms of the GNU General Public License as published by
+#. the Free Software Foundation; either version 2 of the License, or
+#. (at your option) any later version.
+#. This program is distributed in the hope that it will be useful,
+#. but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#. GNU General Public License for more details.
+#. You should have received a copy of the GNU General Public License
+#. along with this program; if not, write to the Free Software
+#. Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+#: stdin:30
+msgid "Upload Excel file"
+msgstr "Excel-Datei hochladen"
+
+#: stdin:209
+msgid "Excel Template file:"
+msgstr "Excel-Vorlage:"
+
+#: stdin:212
+msgid ""
+"Insert the path to the excel template file (must be Excel 2007 and end with ."
+"xlsx; should start with /wp-content/...)"
+msgstr ""
+"Geben Sie den Pfad zur Excel-Vorlage ein (muss Excel 2007 sein und mit .xlsx "
+"enden; sollte mit /wp-content/… beginnen)"
+
+#: stdin:217
+msgid "Excel sheet index:"
+msgstr "Excel-Arbeitsblatt-Index:"
+
+#: stdin:220
+msgid ""
+"Insert the sheet index of the excel sheet where you want to save the from "
+"data (excel sheet indices start with 0, please use indices which do exist)"
+msgstr ""
+"Geben Sie den Index des Excel-Arbeitsblatts ein, in welches Sie die "
+"Formulardaten speichern möchten (Excel-Arbeitsblatt-Indizes beginnen bei 0, "
+"bitte verwenden Sie Indizes, die existieren)"
+
+#: stdin:225
+msgid "Add Excel file as attachment to notification emails:"
+msgstr "Füge eine Excel-Datei als Anlage zu Benachrichtigungs-Emails hinzu:"
+
+#: stdin:228
+msgid "Select the notification emails, where you want to attach the excel file"
+msgstr ""
+"Wählen Sie die Benachrichtigungs-Emails aus, an welche Sie die Excel-Datei "
+"anfügen wollen"
+
+#: stdin:242
+msgid ".xlsx extension is missing"
+msgstr "Die Erweiterung .xlsx fehlt"
+
+#: stdin:256
+msgid "The file type is not Excel 2007 or the file does not exist"
+msgstr ""
+"Der Dateityp entspricht nicht Excel 2007 oder die Datei existiert nicht"
+
+#: stdin:262
+msgid ""
+"An Excel 2007 file must be uploaded to attach it to the selected "
+"notifications"
+msgstr ""
+"Eine Excel 2007 Datei muss hochgeladen sein, um zu den ausgewählten "
+"Benachrichtigungen hinzugefügt werden zu können"
+
+#: stdin:268
+msgid "There is no Excel file under your specified path"
+msgstr "Es existiert keine Excel-Datei unter dem angegebenen Pfad"
+
+#: stdin:291
+msgid "An Excel file must exist to define sheet index"
+msgstr ""
+"Eine Exel-Datei muss existieren, damit ein Arbeitsblatt-Index definiert "
+"werden kann"
+
+#: stdin:296
+msgid "A sheet with that index does not exist in your Excel file"
+msgstr "Ein Arbeitsblatt mit diesem Index existiert in Ihrer Excel-Datei nicht"
+
+#: stdin:302
+msgid ""
+"<p>Thank you for using this plugin. If you like it, we would like to invite "
+"you to rate it on <a href='https://wordpress.org/plugins/wp4office-"
+"gf2excel/' target='_blank'>wordpress.org</a>.</p><h2>Description</h2> "
+"<p>This Gravity Forms AddOn saves form data into a given Excel document and "
+"attaches it to notification emails.You don't need any programming skills to "
+"get native Excel documents back as the result of your Gravity Forms web "
+"form. After uploading your Excel 2007 file (.xslx, other versions are not "
+"supported) the form data is saved into one sheet (which you can define) of "
+"your document. You can then select to which notification emails thisExcel "
+"file should be attached to. Using simple Excel formulas (=A1)you can fill "
+"out complex Excel sheets with data from the web form.No further export or "
+"import of CSV data is required.</p><h2>Operating instructions</h2> <ol> "
+"<li>Create your form withGravity Forms</li> <li>Give all your fields admin "
+"field labels(under the tab 'Advanced')</li> <li>Create your notification "
+"emails</li> <li>Open the WP4O-GF2Excel form settings, upload yourExcel file, "
+"type in your sheet number to insert the form data and finally select the "
+"notifications you would like to attach the filled in Excel file.</li> "
+"<li>Submit your form and open your Excel file.Connect your actual form "
+"fields through formulas (=A1) with data of the sheet which is filled by "
+"Gravity Forms. The admin field labels will help you to associate the data "
+"with the form fields.</li><li>Open the WP4O-GF2Excel form settings again and "
+"upload the Excel file with your formulas.</li> <li>Repeat steps 5 and 6 "
+"until you are satisfied with the result.</li> <li>Be happy :-)</li> </"
+"ol><p><i>This plugin requires Gravity Forms by RocketGenius to be active.</"
+"i></p><p><i>This plugin was successfully tested on WordPress Multisite "
+"without any abnormalities.</i></p><p>This plugin is maintained by <a "
+"href='http://winball.de' target='_blank'>winball.de</a> on <a href='http://"
+"wp4office.winball2.de/gf2excel' target='_blank'>wp4office.winball2.de</a>. "
+"We welcome your pull requests,comments and suggestions for improvement. "
+"Additional <a href='http://wp4office.winball2.de/gf2excel/help' "
+"target='_blank'>help and example files</a> with descriptions are available. "
+"You can <a href='http://wp4office.winball2.de/gf2excel/demo' "
+"target='_blank'>try out a demo</a> before installing. Technical support is "
+"available under <a href='https://wordpress.org/support/plugin/wp4office-"
+"gf2excel' target='_blank'>wordpress.org.</a></p><h2>You do have problems or "
+"need individual service?</h2><p>Professional web services are our actual "
+"business. If you need help with your form or your Excel file, please feel "
+"free to <a href='http://winball.de/wp4office-gf2excel-services' "
+"target='_blank'>contact us</a>.</p>"
+msgstr ""
+"<p>Vielen Dank dafür, dass Sie dieses Plugin benutzen. Falls Sie es mögen, "
+"möchten wir Sie bitten, es auf <a href='https://wordpress.org/plugins/"
+"wp4office-gf2excel/' target='_blank'>wordpress.org</a> zu bewerten.</"
+"p><h2>Beschreibung</h2> <p>Dieses Gravity Forms AddOn speichert "
+"Formulardaten in ein vorgegebenes Excel-Dokument and fügt es zu "
+"Benachrichtigungs-Emails hinzu. Sie benötigen keinerlei "
+"Programmierkenntnisse, um echte Excel-Dokumente als Ergebnis Ihrer Gravity "
+"Forms Webformulare zu erhalten. Nach dem Hochladen Ihrer Excel-2007-Datei (."
+"xlsx, andere Versionen werden nicht unterstützt) werden die Formulardaten in "
+"einem Arbeitsblatt (welches Sie definieren können) Ihres Dokuments "
+"gespeichert. Danach können Sie auswählen zu welchen Benachrichtigungs-Eamils "
+"die Datei hinzugefügt werden soll. Unter Verwendung einfacher Excel-Formeln "
+"(=A1) können Sie komplexe Excel-Arbeitsblätter mit Daten eines Webformulars "
+"ausfüllen. Kein weiterer Import oder Export von CSV-Daten ist notwendig.</"
+"p><h2>Bedienungsanleitung</h2> <ol> <li>Erstellen Sie Ihr Formular mit "
+"Gravity Forms</li> <li>Vergeben Sie für alle Felder Admin-Labels (im Tab "
+"'Erweitert')</li> <li>Erstellen Sie Ihre Benachrichtigungs-Emails</li> "
+"<li>Öffnen Sie die Formular-Einstellungen WP4O-GF2Excel, laden Sie Ihre "
+"Excel-Datei hoch, geben Sie die Arbeitsblattnummer ein, in welches Sie die "
+"Daten einfügen wollen und wählen schließlich die Benachrichtigungen aus, an "
+"welche Sie die ausgefüllten Excel-Dateien anfügen wollen</li> <li>Senden Sie "
+"Ihr Formular ab und öffnen Ihre Excel-Datei. Verbinden Sie Ihre eigentlichen "
+"Formularfelder durch Formeln (=A1) mit den Daten des Arbeitsblatts, welches "
+"durch Gravity Forms ausgefüllt wurde. Die Admin-Label werden Ihnen helfen, "
+"die Daten den Formularfeldern zuzuordnen.</li><li>Öffnen Sie die WP4O-"
+"GF2Excel Formular-Einstellungen nochmals und laden Ihre Excel-Datei mit den "
+"Formeln hoch.</li> <li>Wiederholen Sie Schritt 5 und 6 solange bis Sie mit "
+"dem Ergebnis zufrieden sind.</li> <li>Freuen Sie sich :-)</li> </"
+"ol><p><i>Dieses Plugin benötigt, dass Gravity Forms von RocketGenius "
+"aktiviert ist.</i></p><p><i>Dieses Plugin wurde erfolgreich ohne "
+"Auffälligkeiten unter WordPress Multisite getestet.</i></p><p>Dieses Plugin "
+"wird von <a href='http://winball.de'target='_blank'>winball.de</a> unter <a "
+"href='http://wp4office.winball2.de/gf2excel'target='_blank'>wp4office."
+"winball2.de</a> gepflegt. Wir freuen uns über Ihre Anfragen, Kommentare und "
+"Verbesserungsvorschläge. Zusätzliche <a href='http://wp4office.winball2.de/"
+"gf2excel/help' target='_blank'>Hilfe und Beispieldateien</a> mit "
+"Beschreibungen sind verfügbar. Sie können vor der Installation <a "
+"href='http://wp4office.winball2.de/gf2excel/demo' target='_blank'>eine Demo "
+"ausprobieren.</a> Technischer Support ist unter <a href='https://wordpress."
+"org/support/plugin/wp4office-gf2excel' target='_blank'>wordpress.org</a> "
+"verfügbar.</p><h2>Sie haben Probleme oder benötigen individuelle "
+"Dienstleistungen?</h2><p>Professionalle Web-Dienstleistungen sind unser "
+"eigentliches Geschäft. Wenn Sie für Ihr Formular oder Ihre Excel-Datei Hilfe "
+"benötigen, zögern Sie nicht <a href='http://winball.de/wp4office-gf2excel-"
+"services'target='_blank'>uns zu kontaktieren.</a></p>"
