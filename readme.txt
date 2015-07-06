@@ -37,7 +37,7 @@ Professional web services are our actual business. If you need help with your fo
 
 == Installation ==
 
-Upload the plugin to your blog (manually via ftp or through the dashboard) and activate it.
+Upload the plugin to your blog into '/wp-content/plugins/' (manually via ftp or through the dashboard) and activate it.
 
 *This plugin requires Gravity Forms by RocketGenius to be active.*
 
