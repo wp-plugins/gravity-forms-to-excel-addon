@@ -1,11 +1,13 @@
 <?php
 /*
 Plugin Name: Gravity Forms To Excel AddOn
-Plugin URI: http://winball.de/wp4office-gf2excel
+Plugin URI: http://wp4office.winball2.de/gf2excel
 Description: Gravity Forms AddOn which saves form data into a given Excel document and attaches it to notification emails
 Version: 0.1.3
 Author: winball.de
-Author URI: http://winball.de/wp4office-gf2excel
+Author URI: http://winball.de/
+License: GPLv2 or later
+Text Domain: gf2excel-addon
 
 ------------------------------------------------------------------------
 Copyright 2012-2015 winball.de (PG Consulting GmbH)
